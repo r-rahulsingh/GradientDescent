@@ -53,16 +53,19 @@ Finding a good learning rate is critical for the convergence and performance of 
 **Evaluate the Performance:**
 - Use metrics like Mean Squared Error (MSE) or R-squared (R2) on the validation set to evaluate performance.
 
-4. Choose the Best Learning Rate:
+**Choose the Best Learning Rate:**
 - Select the learning rate that minimizes the error or maximizes R2.
 
 **Benefits of Grid Search:**
 
-Systematic Exploration: Tests all values in the predefined range.
+Systematic Exploration: 
+- Tests all values in the predefined range.
 
-Cross-Validation: Ensures robustness by evaluating performance on multiple splits of the data.
+Cross-Validation: 
+- Ensures robustness by evaluating performance on multiple splits of the data.
 
-Reproducibility: Consistent process for comparing hyperparameters.
+Reproducibility: 
+- Consistent process for comparing hyperparameters.
 
 
 
